@@ -1,0 +1,30 @@
+.userimage {
+    width:50%;
+    height:100%;
+}
+
+.flexcontainer{
+  display: flex;
+  //justify-content: center;
+  //align-items: center;
+  //height: 100vh;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 100px;
+}
+
+table, th,td {
+    border: 1px solid black;
+}
+
+.datadiv {
+    width: 100%;
+}
+
+.buttondiv {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="flexcontainer">
+        <div class="imagediv">
+            <img class="userimage" src={{userData.imageURL}}>
+        </div>
+        <div class="datadiv">
+            <table>
+                <tr>
+                    <td>First Name:</td>
+                    <td>{{userData.firstname}}</td>
+                </tr>
+                <tr>
+                    <td>Surname:</td>
+                    <td>{{userData.surname}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="buttondiv">
+        <button class="logoutbutton" (click)=logout()>Logout</button>
+    </div>
+</div>

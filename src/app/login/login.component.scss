@@ -1,0 +1,48 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inner-container {
+  width: 700px;
+  height: 500px;
+  //background-color: lightgreen;
+
+}
+
+.inner-container > div {
+    justify-content: center;
+    //background-color: darkgoldenrod;
+  
+  }
+
+.leftpicture {
+  //width: 350px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.pngpic {
+  justify-content: center;
+  align-items: center;
+  max-width:80%;
+  max-height:80%;
+}
+
+.rightlogin {
+  //width: 350px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+      
+}
+
+@media only screen and (min-width: 635px) {
+    .inner-container { 
+        display:flex; 
+    }
+}

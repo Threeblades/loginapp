@@ -1,0 +1,27 @@
+<div class="flex-container">
+  <div class="inner-container">
+
+  <div class="leftpicture">
+    <img class="pngpic" src="./assets/img/in.png">
+  </div>
+  <div class="rightlogin">
+    
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+      <fieldset>
+      <label for="username">Username</label>
+      <br>
+      <input type="text" formControlName="username">
+      <br>
+      <label for="username">Password</label>
+      <br>
+      <input type="password" formControlName="password">
+      <br>
+      <br>
+      <button type="submit">Login</button>
+      </fieldset>
+      <br>
+      <div *ngIf="authenticationError">{{authenticationError}}</div>
+    </form>
+  </div>
+</div>
+</div>
